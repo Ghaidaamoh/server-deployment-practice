@@ -9,7 +9,7 @@ describe('express server', () => {
         // arrange
         let param = '/';
         let status = 200;
-        let text = 'Hello World!';
+        let text = 'welcome to my app';
         // act
         const response = await request.get(param);
         // assert
